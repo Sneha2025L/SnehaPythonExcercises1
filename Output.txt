@@ -1,0 +1,146 @@
+PS C:\Users\trans\tests\work> python Excercise.py
+Amazon blocked or no results. Using fallback API...
+
+
+AI call failed for product: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+Traceback (most recent call last):
+  File "C:\Users\trans\tests\work\Excercise.py", line 69, in enhance_with_ai
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=10
+    )
+  File "C:\Users\trans\AppData\Roaming\Python\Python313\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface.
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+AI call failed for product: Mens Casual Premium Slim Fit T-Shirts
+Traceback (most recent call last):
+  File "C:\Users\trans\tests\work\Excercise.py", line 69, in enhance_with_ai
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=10
+    )
+  File "C:\Users\trans\AppData\Roaming\Python\Python313\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface.
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+AI call failed for product: Mens Cotton Jacket
+Traceback (most recent call last):
+  File "C:\Users\trans\tests\work\Excercise.py", line 69, in enhance_with_ai
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=10
+    )
+  File "C:\Users\trans\AppData\Roaming\Python\Python313\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface.
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+AI call failed for product: Mens Casual Slim Fit
+Traceback (most recent call last):
+  File "C:\Users\trans\tests\work\Excercise.py", line 69, in enhance_with_ai
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=10
+    )
+  File "C:\Users\trans\AppData\Roaming\Python\Python313\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface.
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+AI call failed for product: John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet
+Traceback (most recent call last):
+  File "C:\Users\trans\tests\work\Excercise.py", line 69, in enhance_with_ai
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=10
+    )
+  File "C:\Users\trans\AppData\Roaming\Python\Python313\site-packages\openai\lib\_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1:
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface.
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+[
+  {
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "rating": 3.9,
+    "url": "https://fakestoreapi.com/products/1",
+    "ai_category": "professional"
+  },
+  {
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "rating": 4.1,
+    "url": "https://fakestoreapi.com/products/2",
+    "ai_category": "budget"
+  },
+  {
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "rating": 4.7,
+    "url": "https://fakestoreapi.com/products/3",
+    "ai_category": "budget"
+  },
+  {
+    "title": "Mens Casual Slim Fit",
+    "price": 15.99,
+    "rating": 2.1,
+    "url": "https://fakestoreapi.com/products/4",
+    "ai_category": "budget"
+  },
+  {
+    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    "price": 695,
+    "rating": 4.6,
+    "url": "https://fakestoreapi.com/products/5",
+    "ai_category": "budget"
+  }
+]
+PS C:\Users\trans\tests\work> 
