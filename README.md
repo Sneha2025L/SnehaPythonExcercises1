@@ -64,17 +64,10 @@ pip install -r requirements.txt
 $env:OPENAI_API_KEY="your_api_key_here"  # Windows PowerShell
 # export OPENAI_API_KEY="your_api_key_here"  # macOS/Linux
 
-##Usage
+---
 
-Run the script with default query ("laptops"):
+## Usage
 
-python exercise.py
+Run with the default query ("laptops"):
 
-
-Run with custom search query:
-
-python exercise.py --query="headphones"
-
-
-Output is JSON-formatted with AI categories included.
-
+```bash
