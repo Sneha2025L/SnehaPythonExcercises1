@@ -66,8 +66,14 @@ $env:OPENAI_API_KEY="your_api_key_here"  # Windows PowerShell
 
 ---
 
+---
+
 ## Usage
 
 Run with the default query ("laptops"):
 
 ```bash
+python exercise.py
+
+python exercise.py --query="headphones"
+
