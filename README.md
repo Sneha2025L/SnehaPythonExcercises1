@@ -65,7 +65,13 @@ $env:OPENAI_API_KEY="your_api_key_here"  # Windows PowerShell
 # export OPENAI_API_KEY="your_api_key_here"  # macOS/Linux
 
 ---
+## Usage
 
+Run with the default query ("laptops"):
+
+```bash
+python exercise.py
+---
 ## Usage
 
 Run with the default query ("laptops"):
@@ -74,4 +80,28 @@ Run with the default query ("laptops"):
 python exercise.py
 
 python exercise.py --query="headphones"
+Technical Details
 
+Selenium WebDriver with explicit waits
+
+Anti-bot measures: custom user-agent, optional headless/visible browser
+
+Fallback API: FakeStore API ensures consistent output if Amazon blocks scraping
+
+Handles missing price or rating gracefully
+
+AI Enhancement
+
+Uses OpenAI GPT (gpt-4o-mini) to categorize products
+
+Fallback rule-based categorization ensures reliable output
+
+Fallback & Edge Cases
+
+Amazon blocking → fallback API
+
+AI failure → rule-based category
+
+Missing product fields handled gracefully
+
+Default query: "laptops", but any query supported via CLI
