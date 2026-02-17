@@ -64,7 +64,7 @@ pip install -r requirements.txt
 $env:OPENAI_API_KEY="your_api_key_here"  # Windows PowerShell
 # export OPENAI_API_KEY="your_api_key_here"  # macOS/Linux
 
-#Usage
+##Usage
 
 Run the script with default query ("laptops"):
 
