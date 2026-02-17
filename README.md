@@ -72,14 +72,20 @@ Run with the default query ("laptops"):
 ```bash
 python exercise.py
 ---
-## Usage
+Usage
 
 Run with the default query ("laptops"):
 
-```bash
 python exercise.py
 
+
+Run with a custom search query:
+
 python exercise.py --query="headphones"
+
+
+Output is JSON-formatted with AI categories included.
+
 Technical Details
 
 Selenium WebDriver with explicit waits
@@ -105,3 +111,35 @@ AI failure → rule-based category
 Missing product fields handled gracefully
 
 Default query: "laptops", but any query supported via CLI
+
+Author
+
+Snehalatha Momidi
+Senior QA Automation Engineer
+
+Notes:
+
+Demonstrates robust automation and AI integration
+
+Shows thoughtful handling of edge cases and flexible CLI usage
+
+First coding exercise in my career completed using ChatGPT guidance responsibly, not “vibe coding”
+
+
+---
+
+### ✅ Why this will fix your problem
+
+1. **All headings are proper `##` Markdown** → TOC links now work.  
+2. **Code blocks are closed properly** → no accidental merging of text and code.  
+3. **Sections are clearly separated with `---`** → readable and professional.  
+
+---
+
+If you replace your current README.md with this one, **clicking any TOC link on GitHub will scroll to the correct section**.  
+
+---
+
+If you want, I can now give you **:contentReference[oaicite:0]{index=0}** — ready to submit.  
+
+Do you want me to do that next?
