@@ -65,6 +65,9 @@ $env:OPENAI_API_KEY="your_api_key_here"  # Windows PowerShell
 # export OPENAI_API_KEY="your_api_key_here"  # macOS/Linux
 
 ---
+## Project Overview
+
+The script scrapes the first 5 product listings from Amazon based on a search query (default: "laptops"). If Amazon blocks scraping, it falls back to [FakeStore API](https://fakestoreapi.com/) to ensure output. Each product is enhanced with an AI-generated category: `budget`, `gaming`, or `professional`.
 ## Usage
 
 Run with the default query ("laptops"):
